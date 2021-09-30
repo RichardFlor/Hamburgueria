@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000;
+    overflow-x: hidden;
+    
+    
+   
+}
+.center{
+    max-width: 100%;
+    height: inherit; 
+    margin: 0 auto;
+    padding:0 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+ 
+}
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    padding-left: 10px;
+    width: 100vw;
+    height: 80px;
+   
+}
+/* Codigo da parte Pesquisar  */
+form {
+    border: 1px solid whitesmoke;
+    border-radius: 0.3em;
+    /* padding: 0.3em; */
+    max-width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button {
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+    color: whitesmoke;
+   
+}
+
+form button {
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+   
+    
+}
+
+form button:hover {
+    background-color: whitesmoke;
+    color: rgb(255, 0, 0);
+}
+
+h3{
+    color:#FFF;
+     font-size: 20px;
+
+}
+#sloga{
+    width: 500px;
+    height: auto;
+    margin-right: 10px;
+    padding-left: 80px;
+}
+
+.menu{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    
+}
+.menu a{
+    color: #FFF;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 120px;
+    
+
+}
+
+.carrosel{
+    flex-grow: 1;
+    display: grid;
+    place-items: center;
+
+}
+/*Codigos abaixos são para ajustar as imagens no carrossel onde ficará mudando de acordo com a rolagem do scroll do mouse */
+#items-wrapper {
+    width: 100vw;
+    
+
+}
+#items {
+    display: flex;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory; 
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+.item {
+    flex: none;
+    width: 100%;
+    height: 600px;
+    scroll-snap-align: start;
+    pointer-events: none;
+    overflow-y:hidden ;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ 
+/* Codigo abaixo é para colocar as imagens dos produtos */
+/* DIV PAI */
+.produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    
+}
+
+.barra{
+    max-width: 100%;
+    height: 60px;
+    background-color: lavender;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items:inherit;
+    
+
+}
+/* Rodapé */
+footer{
+    background-color: #000;
+    width: 100vw;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-style: italic;
+}
+
