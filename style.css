@@ -136,6 +136,7 @@ img{
 /* Menu burger + barra de pesquisa */
 .barra{
     height: 50px;
+    /* display: flex; */
 }
 .esquerda, .direita{
     width: 30%;
