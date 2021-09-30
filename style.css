@@ -40,28 +40,25 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 form input, form button {
     font-size: 1.2em;
-    border-radius: 0.2em;
     border: none;
-    padding: 0.2em;
     color: whitesmoke;
-   
+ 
 }
-
 form button {
     cursor: pointer;
     background: none;
     color: whitesmoke;
-   
-    
+
 }
 
 form button:hover {
     background-color: whitesmoke;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 h3{
@@ -136,17 +133,19 @@ img{
     padding-top: 40px;
     
 }
-
+/* Menu burger + barra de pesquisa */
 .barra{
-    max-width: 100%;
-    height: 60px;
-    background-color: lavender;
-    color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items:inherit;
+    height: 50px;
+}
+.esquerda, .direita{
+    width: 30%;
+    height: 100%;
+    background-color: yellow;
+    float: left;
+}
+.direita{
     
-
+    float: right;
 }
 /* Rodapé */
 footer{
